@@ -26,5 +26,5 @@ public class SpringController {
 		String result = "Mr. DevOps" + val;
 		return result;
 	}
-
+}
 
