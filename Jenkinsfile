@@ -7,9 +7,7 @@ pipeline{
         stage('Git Checkout'){
             
             steps{
-                
-                script{
-                    
+                   
     git branch: 'main', credentialsId: 'bhandari', url: 'https://github.com/dheerendrabhandari8/demo-counter-app.git'
             }
              }
