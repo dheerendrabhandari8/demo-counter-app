@@ -16,7 +16,7 @@ pipeline{
 
             steps{
 
-junit allowEmptyResults: true, testResults: 'pom.xml'   
+junit '\'/demo-counter-app/*.xml\''   
            }
              }
 
