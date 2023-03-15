@@ -22,7 +22,7 @@ sh 'mvn verify'
            }
 post {
 always{
-junit allowEmptyResult: true, testResult: '/demo-counter-app/*.xml'
+junit allowEmptyResults: true, testResults: '/demo-counter-app/*.xml'
              }
 }
 }
