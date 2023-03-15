@@ -11,5 +11,15 @@ pipeline{
     git branch: 'main', credentialsId: 'git-hub', url: 'https://github.com/dheerendrabhandari8/demo-counter-app.git'
             }
              }
+
+ stage('unit-test'){
+
+            steps{
+
+junit allowEmptyResults: true, testResults: 'pom.xml'   
+           }
+             }
+
+
 }
 }
