@@ -20,6 +20,9 @@ pipeline{
 sh 'mvn verify'
        
            }
+post {
+always{
+junit allowEmptyResult: true, testResult: '/demo-counter-app/*.xml'
              }
 
 
