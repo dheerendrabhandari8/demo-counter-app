@@ -12,11 +12,13 @@ pipeline{
             }
              }
 
- stage('unit-test'){
+
+ stage('test'){
 
             steps{
 
-junit '\'/demo-counter-app/*.xml\''   
+sh 'mvn verify'
+       
            }
              }
 
