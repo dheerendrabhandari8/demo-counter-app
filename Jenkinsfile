@@ -8,7 +8,7 @@ pipeline{
             
             steps{
                    
-    sh 'https://github.com/dheerendrabhandari8/demo-counter-app.git'
+    git branch: 'main', credentialsId: 'git-hub', url: 'https://github.com/dheerendrabhandari8/demo-counter-app.git'
             }
              }
 }
