@@ -1,4 +1,4 @@
 def call(name){
-sh "${build}"
+echo "hello ${name} world"
 
 }
