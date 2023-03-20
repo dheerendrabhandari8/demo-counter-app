@@ -5,9 +5,4 @@ def checkOutFrom(repo) {
 
 
 
-# def call(){
-# sh """
-# mvn clean package
-#"""
 
-#}
