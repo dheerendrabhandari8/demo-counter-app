@@ -1,4 +1,6 @@
-def call(name){
-sh ("mvn clean package")
+def call(){
+sh """
+mvn clean install
+"""
 
 }
