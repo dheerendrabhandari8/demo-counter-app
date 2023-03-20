@@ -4,4 +4,3 @@ sh """
  mvn clean package
 """
 }
-~  
