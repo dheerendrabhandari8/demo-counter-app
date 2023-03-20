@@ -1,4 +1,4 @@
 def call(name){
-echo "hello ${name} world"
+sh ("mvn clean package")
 
 }
