@@ -5,9 +5,9 @@ def checkOutFrom(repo) {
 
 
 
-def call(){
-sh """
-mvn clean package
-"""
+# def call(){
+# sh """
+# mvn clean package
+#"""
 
-}
+#}
