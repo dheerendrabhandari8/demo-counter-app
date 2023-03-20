@@ -1,6 +1,7 @@
-def call(){
- 
-sh """
- mvn clean package
-"""
+def call (string stageName){
+if ("${stageName}" == 'build'){
+sh 'mvn clean'
+sh 'mvn install'
 }
+}
+
